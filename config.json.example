@@ -1,0 +1,18 @@
+{
+    "monitor frequency": 1,
+    "write json file": false,
+
+    "destinations": [
+        "Steam",
+    ],
+    "sources": [
+        ".*\\.exe",
+    ],
+    "fields": [
+        "node.name",
+        "node.description",
+        "application.name",
+        "node.nick",
+        "media.name"
+    ]
+}
